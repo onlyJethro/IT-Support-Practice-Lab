@@ -1,33 +1,13 @@
-# System Navigation
-pwd
+## Advanced Linux Troubleshooting Scenarios
 
-ls
+These scenarios simulate real IT Support and Helpdesk situations commonly encountered in production environments.
 
-cd
+## Scenario 1: User Cannot Connect to the Internet
 
-mkdir
+**Problem:** User reports no internet connection on Linux system.
 
-rm
-
-# File Management
-cp
-
-mv
-
-cat
-
-nano
-
-# Process Management
-ps
-
-top
-
-kill
-
-# Networking
+**Troubleshooting Steps:**
+```bash
 ip a
-
+ping 8.8.8.8
 ping google.com
-
-curl example.com
